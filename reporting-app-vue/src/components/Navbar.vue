@@ -18,8 +18,9 @@
   </b-nav>
 </template>
 <script>
-/* eslint-disable */
 export default {
+  /* eslint-disable */
+
   name: "Navbar"
 };
 </script>
