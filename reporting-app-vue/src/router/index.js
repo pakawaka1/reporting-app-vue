@@ -1,15 +1,16 @@
-import Vue from 'vue'
-import Router from 'vue-router'
-import HelloWorld from '@/components/HelloWorld'
+/* eslint-disable */
+import Vue from "vue";
+import Router from "vue-router";
+import Navbar from "@/components/Navbar";
 
-Vue.use(Router)
+Vue.use(Router);
 
 export default new Router({
   routes: [
     {
-      path: '/',
-      name: 'HelloWorld',
-      component: HelloWorld
+      path: "/",
+      name: "Navbar",
+      component: Navbar
     }
   ]
-})
+});
